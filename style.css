@@ -1,0 +1,70 @@
+*{margin:0; padding:0; font-family: fantasy;}
+.hide{display: none;}
+.car, .enemy{
+    width: 50px; height: 100px; background: red;
+    position: absolute;
+    bottom: 120px;
+    border-radius: 30px;
+    background-image: url('car.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.carGame{
+    width: 100%;
+    height: 100vh;
+    background-image: url(green2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.lines{
+    width:10px;
+    height: 100px;
+    position: absolute;
+    background: white;
+    margin-left: 195px;
+}
+.gameArea{
+    width: 400px;
+    height: 100vh;
+    background: rgb(44, 38, 38);
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+    border-right: 7px dashed #06cc31;
+    border-left: 7px dashed #06cc31;
+}
+.score{
+    position: absolute;
+    top: 15px;
+    left: 40px;
+    background: rgb(28, 0, 128);
+    width: 300px;
+    line-height: 70px;
+    text-align: center;
+    color: aliceblue;
+    font-size: 1.5em;
+    font-family: fantasy;
+    box-shadow: 0 5px 5px #777;
+}
+.startScreen{
+    position: absolute;
+    background-color: rgb(15, 250, 172);
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(7, 2, 68);
+    z-index: 1;
+    text-align: center;
+    border: 1px solid #142197;
+    padding: 15px;
+    margin: auto;
+    width: 50%;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 5;
+    font-size: 20px;
+    word-spacing: 3;
+    line-height: 30px;
+    text-transform: uppercase;
+    box-shadow: 0 5px 15px 5px rgb(9, 164, 226);
+}
